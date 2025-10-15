@@ -1,0 +1,21 @@
+Celem ćwiczenia jest zapoznanie się z wybranymi funkcjami przetwarzania i analizy obrazów z pakietu OpenCV, a w szczególności augmentacji danych (obrazów). W pierwszej kolejności należy przeanalizować, a także uruchomić skrypty z załącznika Lab_02_students.zip (00_data_aug.py, 00_data_aug_mean_0_stdev_1.py, 00_data_aug_ZCA_Whitening.py, 01_data_aug.py, 02_data_aug.py, 03_data_aug.py, 04_data_aug.py, mnist_data_aug_demo.py, ). W szczególności należy dokładnie przeanalizować skrypty demonstrujące operację konwolucji, a także skrypty ilustrujące sposoby augmentacji danych.
+
+Nastepnie należy zapoznać się z pakietem albumentations (skrypt: albumentations_demo.py), zob. także
+
+https://albumentations.ai/ . 
+
+
+
+W dalszej części ćwiczenia należy zapoznać się z DFT oraz DCT. Należy przeanalizować skrypty: 
+
+- fourier_transform.py 
+
+- DFT_1D.py 
+
+- DFT_2D.py 
+
+W oparciu o skrypt DFT_1D.py należy przygotować DFT_1D.ipynb. DFT_1D.ipynb należy uzupełnić o kod na IFT (Inverse Fourier Transform). Należy przeanalizować wykresy, a w szczególności pod kątem częstotliwości Nyquista (zob. np.: https://pl.wikipedia.org/wiki/Cz%C4%99stotliwo%C5%9B%C4%87_Nyquista ).
+
+Należy określić złożoność obliczeniową  DFT i DCT.
+
+Do sprawozdania z ćwiczenia należy dołączyć plik DFT_1D.ipynb, DFT_1D.pdf, requrements.txt 
