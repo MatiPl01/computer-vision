@@ -1,0 +1,7 @@
+Celem ćwiczenia jest rozpoznawanie akcji na sekwencjach obrazów cyfrowych w oparciu o sieci 3D Conv.
+
+W pierwszej kolejnoći należy skopiować zbiór danych:
+
+https://drive.google.com/file/d/1Kmm32rgPQNixpuZlPdKj2DPpVCDEmQzy/view?usp=share_link
+
+Należy zapoznać się z z plikiem ReadMe.md, a następnie przygotować i wytrenować sieć konwolucyjną. Trenowanie i walidację należy zrealizować w oparciu o zaproponowany "data split". Należy zwrócić uwagę na to, że dane są niezbalansowane. Trenowanie sieci należy przeprowadzić z użyciem wybranej techniki augmentacji danych. Warto podkreslić, że typowe techni augmenyacji danych (zob. np. https://albumentations.ai/ ) są dla pojedynczych obrazów, nie zaś sekwencji obrazów. Opcjonalnie, jako rozwinięcie projektu można zastosować grad-CAM (3D) do wizualizacji map ciepła na sekwencjach obrazów. nalezy pzrebadać eksperymentalnie filtry konwolucyjne dla długości okna 5 7, 9 (11), tzn. zastosować podejście "moving window", w którym okno przesuwane jest o liczbę obrazów równą połowie okna. Klasę naezy okreslic w oparciu o wiekszość klas obrazów znajdujących się w obębie okna.
