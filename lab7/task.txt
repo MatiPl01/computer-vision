@@ -1,0 +1,9 @@
+W pierwszej kolejnosci nalezy zapoznac sie z pracą:
+
+Continuous Hand Gesture Recognition for Human-Robot Collaborative Assembly oraz z prezentacja sieci STSA-Net (plik: STSA-Net.pdf).
+
+Następnie należy zaimplementować sieć typu transformer z użyciem bloków STSA-Net do rozpoznawania ćwiczeń gimanstycznych. W załączeniu znajduje się kod dla klasy:
+
+class STSANet(nn.Module)
+
+którą mozna wykorzystać jako kod bazowy. 
